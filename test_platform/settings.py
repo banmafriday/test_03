@@ -9,7 +9,8 @@ https://docs.djangoproject.com/en/2.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
-from test_03.test_platform.logger import LOGGING
+from test_platform.logger import LOGGING
+
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -23,7 +24,6 @@ SECRET_KEY = '=h)0!dli32gk011w!=8-u7q0f=x#hs$iek0z60h@m&)&11n8+l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
 
 ALLOWED_HOSTS = []
 
@@ -118,8 +118,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-
-
+# 设置静态文件目录
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
 # 记录日志信息的原因
 # 1.项目部署后 不会用pycharm来运行项目
 # 2.日志能够收集信息
@@ -164,7 +166,3 @@ LOGGING = {
         },
     }
 }
-
-# import logging
-# logger = logging.getLogger('django')
-# logger.info('测试logging模块info')

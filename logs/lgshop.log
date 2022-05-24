@@ -84,3 +84,176 @@ INFO 2022-05-24 18:08:40,176 basehttp 154 "POST /login/ HTTP/1.1" 200 1961
 INFO 2022-05-24 18:08:40,347 basehttp 154 "POST /login/ HTTP/1.1" 200 1961
 INFO 2022-05-24 18:14:20,268 basehttp 154 "GET / HTTP/1.1" 200 1934
 INFO 2022-05-24 18:15:46,497 basehttp 154 "GET / HTTP/1.1" 200 1973
+INFO 2022-05-24 18:17:09,721 basehttp 154 "POST /login/ HTTP/1.1" 200 2000
+INFO 2022-05-24 19:08:13,069 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 19:08:18,916 autoreload 217 E:\dj\test_03\test_platform\settings.py changed, reloading.
+INFO 2022-05-24 19:09:03,635 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 19:09:19,749 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 19:09:24,245 basehttp 154 "GET / HTTP/1.1" 200 1973
+WARNING 2022-05-24 19:09:25,003 log 228 Not Found: /favicon.ico
+WARNING 2022-05-24 19:09:25,004 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2398
+INFO 2022-05-24 19:09:42,225 basehttp 154 "GET / HTTP/1.1" 200 1973
+WARNING 2022-05-24 19:09:43,037 log 228 Not Found: /favicon.ico
+WARNING 2022-05-24 19:09:43,037 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2398
+WARNING 2022-05-24 19:09:52,884 log 228 Not Found: /favicon.ico
+WARNING 2022-05-24 19:09:52,885 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2398
+INFO 2022-05-24 19:09:53,061 basehttp 154 "GET / HTTP/1.1" 200 1973
+INFO 2022-05-24 19:10:00,643 basehttp 154 "POST /login/ HTTP/1.1" 200 2000
+INFO 2022-05-24 19:10:14,123 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-05-24 19:10:14,127 basehttp 154 "GET /manage/ HTTP/1.1" 200 149
+INFO 2022-05-24 19:15:25,521 autoreload 217 E:\dj\test_03\app_personal\views.py changed, reloading.
+INFO 2022-05-24 19:15:26,119 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 19:16:35,210 autoreload 217 E:\dj\test_03\app_personal\views.py changed, reloading.
+INFO 2022-05-24 19:16:35,814 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 19:17:04,657 autoreload 217 E:\dj\test_03\app_personal\views.py changed, reloading.
+INFO 2022-05-24 19:17:05,262 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 19:17:23,943 basehttp 154 "GET / HTTP/1.1" 200 1973
+WARNING 2022-05-24 19:17:24,136 log 228 Not Found: /favicon.ico
+WARNING 2022-05-24 19:17:24,137 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2398
+INFO 2022-05-24 19:17:33,677 basehttp 154 "POST /login/ HTTP/1.1" 200 2000
+INFO 2022-05-24 19:17:53,853 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-05-24 19:17:53,991 basehttp 154 "GET /manage/ HTTP/1.1" 200 149
+WARNING 2022-05-24 19:18:39,379 log 228 Not Found: /favicon.ico
+WARNING 2022-05-24 19:18:39,380 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2398
+INFO 2022-05-24 19:18:39,707 basehttp 154 "GET /manage/ HTTP/1.1" 302 0
+WARNING 2022-05-24 19:18:39,712 log 228 Not Found: /accounts/login/
+WARNING 2022-05-24 19:18:39,713 basehttp 154 "GET /accounts/login/?next=/manage/ HTTP/1.1" 404 2424
+INFO 2022-05-24 19:18:52,944 autoreload 217 E:\dj\test_03\app_personal\views.py changed, reloading.
+INFO 2022-05-24 19:18:53,629 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 19:18:54,157 basehttp 154 "GET /manage/ HTTP/1.1" 200 149
+INFO 2022-05-24 19:19:00,607 autoreload 217 E:\dj\test_03\app_personal\views.py changed, reloading.
+INFO 2022-05-24 19:19:01,250 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 19:19:01,752 basehttp 154 "GET /manage/ HTTP/1.1" 200 149
+INFO 2022-05-24 19:19:05,886 autoreload 217 E:\dj\test_03\app_personal\views.py changed, reloading.
+INFO 2022-05-24 19:19:06,577 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 19:19:10,854 basehttp 154 "GET /manage/ HTTP/1.1" 200 149
+INFO 2022-05-24 19:19:11,744 basehttp 154 "GET /manage/ HTTP/1.1" 200 149
+INFO 2022-05-24 19:19:19,305 autoreload 217 E:\dj\test_03\app_personal\views.py changed, reloading.
+INFO 2022-05-24 19:19:19,899 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 19:19:20,388 basehttp 154 "GET /manage/ HTTP/1.1" 200 149
+INFO 2022-05-24 19:19:21,813 basehttp 154 "GET /manage/ HTTP/1.1" 200 149
+INFO 2022-05-24 19:19:31,673 basehttp 154 "GET /manage/ HTTP/1.1" 200 149
+WARNING 2022-05-24 19:19:35,197 log 228 Not Found: /favicon.ico
+WARNING 2022-05-24 19:19:35,198 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2398
+INFO 2022-05-24 19:19:35,472 basehttp 154 "GET /manage/ HTTP/1.1" 302 0
+WARNING 2022-05-24 19:19:35,477 log 228 Not Found: /accounts/login/
+WARNING 2022-05-24 19:19:35,478 basehttp 154 "GET /accounts/login/?next=/manage/ HTTP/1.1" 404 2424
+INFO 2022-05-24 19:19:44,992 autoreload 217 E:\dj\test_03\app_personal\views.py changed, reloading.
+INFO 2022-05-24 19:19:45,621 autoreload 597 Watching for file changes with StatReloader
+WARNING 2022-05-24 19:19:47,024 log 228 Not Found: /favicon.ico
+WARNING 2022-05-24 19:19:47,025 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2398
+INFO 2022-05-24 19:19:47,390 basehttp 154 "GET /manage/ HTTP/1.1" 200 149
+INFO 2022-05-24 19:19:59,691 autoreload 217 E:\dj\test_03\app_personal\views.py changed, reloading.
+INFO 2022-05-24 19:20:00,288 autoreload 597 Watching for file changes with StatReloader
+WARNING 2022-05-24 19:20:01,601 log 228 Not Found: /favicon.ico
+WARNING 2022-05-24 19:20:01,602 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2398
+INFO 2022-05-24 19:20:01,889 basehttp 154 "GET /manage/ HTTP/1.1" 302 0
+WARNING 2022-05-24 19:20:01,894 log 228 Not Found: /accounts/login/
+WARNING 2022-05-24 19:20:01,894 basehttp 154 "GET /accounts/login/?next=/manage/ HTTP/1.1" 404 2424
+WARNING 2022-05-24 19:24:11,599 log 228 Not Found: /accounts/login/
+WARNING 2022-05-24 19:24:11,600 basehttp 154 "GET /accounts/login/?next=/manage/ HTTP/1.1" 404 2424
+INFO 2022-05-24 19:24:19,300 basehttp 154 "GET / HTTP/1.1" 200 1973
+WARNING 2022-05-24 19:24:19,484 log 228 Not Found: /favicon.ico
+WARNING 2022-05-24 19:24:19,484 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2398
+INFO 2022-05-24 19:24:32,536 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-05-24 19:24:32,656 basehttp 154 "GET /manage/ HTTP/1.1" 200 187
+WARNING 2022-05-24 19:24:40,642 log 228 Not Found: /logout/
+WARNING 2022-05-24 19:24:40,643 basehttp 154 "GET /logout/ HTTP/1.1" 404 2386
+INFO 2022-05-24 19:25:06,941 autoreload 217 E:\dj\test_03\test_platform\urls.py changed, reloading.
+INFO 2022-05-24 19:25:07,587 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 19:25:24,785 autoreload 217 E:\dj\test_03\test_platform\urls.py changed, reloading.
+INFO 2022-05-24 19:25:25,406 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 19:26:05,465 autoreload 217 E:\dj\test_03\app_personal\views.py changed, reloading.
+INFO 2022-05-24 19:26:06,071 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 19:32:24,055 autoreload 217 E:\dj\test_03\app_personal\views.py changed, reloading.
+INFO 2022-05-24 19:32:24,685 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 19:32:47,674 autoreload 217 E:\dj\test_03\app_personal\views.py changed, reloading.
+INFO 2022-05-24 19:32:48,311 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 19:35:31,055 autoreload 217 E:\dj\test_03\app_personal\views.py changed, reloading.
+INFO 2022-05-24 19:35:31,771 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 19:35:37,334 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-05-24 19:35:37,389 basehttp 154 "GET / HTTP/1.1" 200 1973
+INFO 2022-05-24 19:35:50,140 basehttp 154 "GET / HTTP/1.1" 200 1973
+WARNING 2022-05-24 19:35:50,464 log 228 Not Found: /favicon.ico
+WARNING 2022-05-24 19:35:50,464 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2505
+INFO 2022-05-24 19:36:02,659 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+WARNING 2022-05-24 19:36:03,089 log 228 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2022-05-24 19:36:03,089 basehttp 154 "POST /login/ HTTP/1.1" 403 2513
+INFO 2022-05-24 19:36:24,709 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 19:36:34,183 basehttp 154 "GET / HTTP/1.1" 200 1973
+WARNING 2022-05-24 19:36:34,363 log 228 Not Found: /favicon.ico
+WARNING 2022-05-24 19:36:34,363 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2505
+INFO 2022-05-24 19:36:46,864 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-05-24 19:36:47,264 basehttp 154 "GET /manage/ HTTP/1.1" 200 187
+INFO 2022-05-24 19:36:51,110 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-05-24 19:36:51,122 basehttp 154 "GET / HTTP/1.1" 200 1973
+INFO 2022-05-24 20:01:25,117 basehttp 154 "GET / HTTP/1.1" 200 1973
+WARNING 2022-05-24 20:01:25,206 log 228 Not Found: /favicon.ico
+WARNING 2022-05-24 20:01:25,206 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2505
+INFO 2022-05-24 20:05:18,690 basehttp 154 "POST /login/ HTTP/1.1" 200 2000
+INFO 2022-05-24 20:05:26,290 basehttp 154 "POST /login/ HTTP/1.1" 200 2000
+INFO 2022-05-24 20:05:33,778 basehttp 154 "POST /login/ HTTP/1.1" 200 2000
+INFO 2022-05-24 20:05:45,300 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-05-24 20:05:45,425 basehttp 154 "GET /manage/ HTTP/1.1" 200 187
+INFO 2022-05-24 20:06:24,275 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-05-24 20:06:24,291 basehttp 154 "GET / HTTP/1.1" 200 1977
+INFO 2022-05-24 20:06:32,899 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-05-24 20:06:33,023 basehttp 154 "GET /manage/ HTTP/1.1" 200 187
+INFO 2022-05-24 20:06:34,994 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2022-05-24 20:06:34,999 basehttp 154 "GET / HTTP/1.1" 200 1977
+INFO 2022-05-24 20:17:57,610 basehttp 154 "GET / HTTP/1.1" 200 2323
+INFO 2022-05-24 20:18:13,701 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 20:18:15,615 basehttp 154 "GET / HTTP/1.1" 200 2325
+WARNING 2022-05-24 20:18:15,830 log 228 Not Found: /favicon.ico
+WARNING 2022-05-24 20:18:15,830 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2505
+INFO 2022-05-24 20:18:26,689 basehttp 154 "GET / HTTP/1.1" 200 2324
+INFO 2022-05-24 20:18:33,933 basehttp 154 "GET / HTTP/1.1" 200 2323
+INFO 2022-05-24 20:22:05,761 basehttp 154 "GET / HTTP/1.1" 200 2326
+INFO 2022-05-24 20:22:27,383 basehttp 154 "GET / HTTP/1.1" 200 2326
+INFO 2022-05-24 20:25:11,903 basehttp 154 "GET / HTTP/1.1" 200 2449
+INFO 2022-05-24 20:26:24,925 basehttp 154 "GET / HTTP/1.1" 200 2440
+INFO 2022-05-24 20:26:56,888 basehttp 154 "GET / HTTP/1.1" 200 2445
+INFO 2022-05-24 20:27:15,041 basehttp 154 "GET / HTTP/1.1" 200 2445
+INFO 2022-05-24 20:27:21,293 basehttp 154 "GET / HTTP/1.1" 200 2445
+INFO 2022-05-24 20:27:24,568 basehttp 154 "GET / HTTP/1.1" 200 2445
+INFO 2022-05-24 20:27:46,440 basehttp 154 "GET / HTTP/1.1" 200 2445
+INFO 2022-05-24 20:28:50,706 basehttp 154 "GET / HTTP/1.1" 200 2469
+INFO 2022-05-24 20:29:03,909 basehttp 154 "GET / HTTP/1.1" 200 2469
+INFO 2022-05-24 20:29:05,404 basehttp 154 "GET / HTTP/1.1" 200 2469
+INFO 2022-05-24 20:29:08,910 basehttp 154 "GET / HTTP/1.1" 200 2470
+INFO 2022-05-24 20:29:25,683 basehttp 154 "GET / HTTP/1.1" 200 2470
+INFO 2022-05-24 20:29:33,625 basehttp 154 "GET / HTTP/1.1" 200 2470
+INFO 2022-05-24 20:29:41,137 basehttp 154 "GET / HTTP/1.1" 200 2470
+INFO 2022-05-24 20:29:50,235 basehttp 154 "GET / HTTP/1.1" 200 2470
+INFO 2022-05-24 20:29:51,795 basehttp 154 "GET / HTTP/1.1" 200 2470
+INFO 2022-05-24 20:29:53,515 basehttp 154 "GET / HTTP/1.1" 200 2470
+INFO 2022-05-24 20:29:59,765 basehttp 154 "GET / HTTP/1.1" 200 2470
+INFO 2022-05-24 20:30:08,879 basehttp 154 "GET / HTTP/1.1" 200 2470
+INFO 2022-05-24 20:31:01,330 basehttp 154 "GET / HTTP/1.1" 200 2470
+WARNING 2022-05-24 20:37:46,762 log 228 Not Found: /favicon.ico
+WARNING 2022-05-24 20:37:46,762 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2505
+WARNING 2022-05-24 20:37:47,358 log 228 Not Found: /favicon.ico
+WARNING 2022-05-24 20:37:47,358 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2505
+INFO 2022-05-24 20:37:47,410 basehttp 154 "GET / HTTP/1.1" 200 2470
+INFO 2022-05-24 20:42:30,311 autoreload 217 E:\dj\test_03\test_platform\settings.py changed, reloading.
+INFO 2022-05-24 20:42:30,908 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 20:45:38,526 autoreload 217 E:\dj\test_03\test_platform\settings.py changed, reloading.
+INFO 2022-05-24 20:45:39,149 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 20:50:04,262 autoreload 217 E:\dj\test_03\test_platform\settings.py changed, reloading.
+INFO 2022-05-24 20:50:05,126 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 20:55:32,889 autoreload 217 E:\dj\test_03\test_platform\settings.py changed, reloading.
+INFO 2022-05-24 20:55:33,489 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 20:56:59,014 autoreload 217 E:\dj\test_03\test_platform\settings.py changed, reloading.
+INFO 2022-05-24 20:56:59,643 autoreload 597 Watching for file changes with StatReloader
+WARNING 2022-05-24 21:44:46,001 log 228 Not Found: /favicon.ico
+WARNING 2022-05-24 21:44:46,002 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2505
+WARNING 2022-05-24 21:44:46,583 log 228 Not Found: /favicon.ico
+WARNING 2022-05-24 21:44:46,583 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2505
+WARNING 2022-05-24 21:44:47,181 log 228 Not Found: /favicon.ico
+WARNING 2022-05-24 21:44:47,182 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2505
+INFO 2022-05-24 21:44:47,237 basehttp 154 "GET /login HTTP/1.1" 301 0
+INFO 2022-05-24 21:44:47,247 basehttp 154 "GET /login/ HTTP/1.1" 200 2470
+INFO 2022-05-24 21:45:07,960 basehttp 154 "POST /login/ HTTP/1.1" 200 2497
+INFO 2022-05-24 21:48:20,312 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-24 21:48:21,859 basehttp 154 "GET / HTTP/1.1" 200 2475
+INFO 2022-05-24 21:48:24,746 basehttp 154 "POST /login/ HTTP/1.1" 200 2498
