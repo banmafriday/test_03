@@ -17,7 +17,7 @@ def login(request):
 
     # 返回登录页面
     if request.method == "GET":
-        return render(request, "login.html", {"error": "登录页面"})
+        return render(request, "loogin.html", {"error": ""})
 
     print("请求方法", request.path)
 
@@ -26,7 +26,7 @@ def login(request):
         username = request.POST.get("username", "")
         password = request.POST.get("password", "")
         if username == "" or password == "":
-            return render(request, "login.html", {
+            return render(request, "loogin.html", {
                 "error": "用户名或密码为空！"
             })
         user = auth.authenticate(username=username, password=password)
@@ -35,7 +35,7 @@ def login(request):
         if user is not None:
             return HttpResponseRedirect("/manage/")   # 如果登录成功重定向到manage页面
         else:
-            return render(request, "login.html", {
+            return render(request, "loogin.html", {
                 "error": "用户名或密码错误！"
             })
 
