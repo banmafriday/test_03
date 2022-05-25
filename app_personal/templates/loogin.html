@@ -72,7 +72,10 @@
       margin-top: 45%;
       margin-left: 60%;
     }
-
+    h5 {
+        margin-left:3px;
+        width: 110%;
+    }
     a {
       color: #b94648;
     }
@@ -88,7 +91,7 @@
         <p>密码: <input type="password" name="password"/></p>
        <h3>{{ error }}</h3>
         {% csrf_token %}
-        <input type="submit" value="登录"/>
+       <h5> <button>登录</button><br></h5>
     </form>
             </div>
 

@@ -1,8 +1,10 @@
 from django.contrib import auth
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 # 用来写请求处理逻辑的
 # Create your views here.
-from django.http import HttpResponse,HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseRedirect
+from app_manage.models import Project
 
 
 # django处理过程
@@ -33,13 +35,18 @@ def login(request):
         print("用户是否存在", user)
 
         if user is not None:
-            return HttpResponseRedirect("/manage/")   # 如果登录成功重定向到manage页面
+            return HttpResponseRedirect("/mange/")  # 如果登录成功重定向到manage页面
         else:
             return render(request, "loogin.html", {
                 "error": "用户名或密码错误！"
             })
 
 
-def manage(request):
-    '''接口管理'''
-    return render(request, "manage.html")
+@login_required
+def logout(request):
+    '''退出'''
+    auth.logout(request)
+    return HttpResponseRedirect('/')
+
+
+
