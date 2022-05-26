@@ -1,0 +1,13 @@
+from django.contrib import admin
+from app_manage.models import Project
+
+
+# Register your models here.
+
+class ProjectAdmin(admin.ModelAdmin):
+    list_display = ['name', 'status', 'describe', 'update_time', 'create_time']  # admin显示的字段
+    search_fields = ['name', 'describe']  # 搜索栏
+    list_filter = ['status']  # 过滤器  筛选条件
+
+
+admin.site.register(Project, ProjectAdmin)
