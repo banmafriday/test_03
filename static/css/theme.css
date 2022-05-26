@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <style>
-    body {
-      background: url('https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg') no-repeat;
-      background-size: 100% 130%;
-    }
 
-    #login_box {
+#login_box {
       width: 20%;
       height: 400px;
       background-color: #00000060;
@@ -79,21 +68,3 @@
     a {
       color: #b94648;
     }
-  </style>
-</head>
-
-<body>
-    <div id="login_box">
-    <h2>接口自动化测试平台</h2>
-        <div id="input_box">
-    <form action="/login/" method="post">
-        <p>账号: <input type="text" name="username"/></p>
-        <p>密码: <input type="password" name="password"/></p>
-       <h3>{{ error }}</h3>
-        {% csrf_token %}
-       <h5> <button>登录</button><br></h5>
-    </form>
-            </div>
-
-</body>
-</html>

@@ -312,3 +312,44 @@ INFO 2022-05-25 22:16:56,936 basehttp 154 "GET /mange/ HTTP/1.1" 200 323
 INFO 2022-05-25 22:18:47,367 basehttp 154 "GET /mange/ HTTP/1.1" 200 464
 WARNING 2022-05-25 22:25:22,292 log 228 Not Found: /favicon.ico
 WARNING 2022-05-25 22:25:22,292 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2504
+INFO 2022-05-25 22:31:18,617 basehttp 154 "GET /mange/ HTTP/1.1" 200 89563
+WARNING 2022-05-25 22:31:18,641 basehttp 154 "GET /static/media/avatar.42a86687.jpg HTTP/1.1" 404 1699
+WARNING 2022-05-25 22:31:18,648 basehttp 154 "GET /static/media/customer-support.ed122f05.png HTTP/1.1" 404 1729
+WARNING 2022-05-25 22:31:18,660 basehttp 154 "GET /static/media/avatar-5.b309bbe2.jpg HTTP/1.1" 404 1705
+WARNING 2022-05-25 22:31:18,661 basehttp 154 "GET /static/media/avatar-4.93166a0c.jpg HTTP/1.1" 404 1705
+INFO 2022-05-25 22:57:33,640 basehttp 154 "GET / HTTP/1.1" 200 2032
+WARNING 2022-05-25 22:57:33,829 log 228 Not Found: /favicon.ico
+WARNING 2022-05-25 22:57:33,829 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2504
+INFO 2022-05-25 22:57:47,208 basehttp 154 "POST /login/ HTTP/1.1" 200 2059
+INFO 2022-05-25 22:57:53,452 basehttp 154 "POST /login/ HTTP/1.1" 200 2059
+INFO 2022-05-25 22:57:56,564 basehttp 154 "POST /login/ HTTP/1.1" 200 2059
+INFO 2022-05-26 15:21:55,617 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-26 15:22:00,952 basehttp 154 "GET / HTTP/1.1" 200 2032
+WARNING 2022-05-26 15:22:02,167 log 228 Not Found: /favicon.ico
+WARNING 2022-05-26 15:22:02,168 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2504
+INFO 2022-05-26 15:34:58,841 autoreload 217 E:\daima\Yun-API\django-p\test_platform\test_platform\settings.py changed, reloading.
+INFO 2022-05-26 15:34:59,279 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-26 15:35:36,082 autoreload 217 E:\daima\Yun-API\django-p\test_platform\test_platform\settings.py changed, reloading.
+INFO 2022-05-26 15:35:36,524 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-26 15:42:07,146 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-26 15:42:08,939 basehttp 154 "GET / HTTP/1.1" 200 949
+INFO 2022-05-26 15:42:09,267 basehttp 154 "GET /static/css/theme.css HTTP/1.1" 200 1233
+INFO 2022-05-26 15:43:39,888 basehttp 154 "GET / HTTP/1.1" 200 948
+INFO 2022-05-26 15:43:39,914 basehttp 154 "GET /static/css/theme.css HTTP/1.1" 200 1237
+INFO 2022-05-26 15:45:45,800 basehttp 154 "GET / HTTP/1.1" 200 965
+INFO 2022-05-26 15:45:45,826 basehttp 154 "GET /static/css/theme.css HTTP/1.1" 304 0
+INFO 2022-05-26 15:48:33,684 basehttp 154 "GET / HTTP/1.1" 200 1141
+INFO 2022-05-26 15:48:33,715 basehttp 154 "GET /static/css/theme.css HTTP/1.1" 304 0
+INFO 2022-05-26 15:48:46,553 basehttp 154 "GET / HTTP/1.1" 200 1002
+INFO 2022-05-26 15:49:35,360 autoreload 597 Watching for file changes with StatReloader
+INFO 2022-05-26 15:49:37,345 basehttp 154 "GET / HTTP/1.1" 200 990
+INFO 2022-05-26 15:49:37,371 basehttp 154 "GET /static/css/theme.css HTTP/1.1" 304 0
+INFO 2022-05-26 15:49:44,595 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2022-05-26 15:49:44,791 basehttp 154 "GET /mange/ HTTP/1.1" 200 89563
+WARNING 2022-05-26 15:49:44,838 basehttp 154 "GET /static/media/avatar-5.b309bbe2.jpg HTTP/1.1" 404 1705
+WARNING 2022-05-26 15:49:44,838 basehttp 154 "GET /static/media/customer-support.ed122f05.png HTTP/1.1" 404 1729
+WARNING 2022-05-26 15:49:44,838 basehttp 154 "GET /static/media/avatar-4.93166a0c.jpg HTTP/1.1" 404 1705
+WARNING 2022-05-26 15:49:44,839 basehttp 154 "GET /static/media/avatar.42a86687.jpg HTTP/1.1" 404 1699
+INFO 2022-05-26 15:49:54,124 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+WARNING 2022-05-26 15:49:54,129 log 228 Not Found: /accounts/login/
+WARNING 2022-05-26 15:49:54,129 basehttp 154 "GET /accounts/login/?next=/logout/ HTTP/1.1" 404 2530
