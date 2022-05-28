@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34191ccb-c12d-4017-a480-cbb8aabc013a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/test_platform.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_manage/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/classic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test_03.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_manage/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_manage/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_personal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_personal/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/lgshop.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/lgshop.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/loogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/loogin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/manage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/manage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_platform/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_platform/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="34191ccb-c12d-4017-a480-cbb8aabc013a" name="Default Changelist" comment="e" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,8 +100,16 @@
       <updated>1653650021402</updated>
       <workItem from="1653650023812" duration="8027000" />
       <workItem from="1653746052666" duration="67000" />
-      <workItem from="1653746159487" duration="71000" />
+      <workItem from="1653746159487" duration="370000" />
     </task>
+    <task id="LOCAL-00001" summary="e">
+      <created>1653746367129</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653746367129</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,5 +126,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="e" />
+    <option name="LAST_COMMIT_MESSAGE" value="e" />
   </component>
 </project>
