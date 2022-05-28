@@ -35,7 +35,7 @@ def login(request):
         print("用户是否存在", user)
 
         if user is not None:
-            return HttpResponseRedirect("/mange/")  # 如果登录成功重定向到manage页面
+            return HttpResponseRedirect("/project/")  # 如果登录成功重定向到manage页面
         else:
             return render(request, "loogin.html", {
                 "error": "用户名或密码错误！"
