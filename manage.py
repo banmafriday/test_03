@@ -2,7 +2,7 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-
+import static
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'test_platform.settings')

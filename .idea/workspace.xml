@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34191ccb-c12d-4017-a480-cbb8aabc013a" name="Default Changelist" comment="e" />
+    <list default="true" id="34191ccb-c12d-4017-a480-cbb8aabc013a" name="Default Changelist" comment="e">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +21,17 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="https_/gitee.com/banam/banma.git" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="29kHAXTLCLbEYkNwBuuSD9arAed" />
@@ -100,7 +114,7 @@
       <updated>1653650021402</updated>
       <workItem from="1653650023812" duration="8027000" />
       <workItem from="1653746052666" duration="67000" />
-      <workItem from="1653746159487" duration="370000" />
+      <workItem from="1653746159487" duration="1083000" />
     </task>
     <task id="LOCAL-00001" summary="e">
       <created>1653746367129</created>
@@ -109,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653746367129</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="e">
+      <created>1653746640962</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653746640962</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
